@@ -31,22 +31,18 @@ const SplashNav = () => {
   return (
     <nav>
       <div className="">
-
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="" />
-          <p>Freshsplash</p>
+          <p>Fresh Splash</p>
         </a>
 
         <ul>
-         {navLinks.map((link) => (
-          <li key={link?.id}>
-            <a href={`#${link?.id}`}>
-              {link?.title}
-              </a>
-          </li>
-         ))}
+          {navLinks.map((link) => (
+            <li key={link?.id}>
+              <a href={`#${link?.id}`}>{link?.title}</a>
+            </li>
+          ))}
         </ul>
-
       </div>
     </nav>
   );
