@@ -90,7 +90,7 @@ const Hero = () => {
             <div className="space-y-5 hidden md:block">
               <p>Fresh. Light. Vibrant.</p>
               <p className="subtitle">
-                Taste the Joy <br /> of Nature
+                Taste The Joy <br /> Of Nature
               </p>
             </div>
 
