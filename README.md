@@ -30,15 +30,5 @@ A stunning, interactive website for **Fresh Splash** - a premium cocktail bar sh
 6. **Menu** - Dynamic cocktail slider with recipe details
 7. **Contact** - Location and social information
 
-src/
-├── sections/          # Main page sections
-│   ├── SplashNav.jsx
-│   ├── Hero.jsx
-│   ├── Menu.jsx
-│   ├── Art.jsx
-│   ├── Cocktails.jsx
-│   └── Contact.jsx
-├── constants/         # Data and configuration
-├── App.jsx           # Main app component
-└── main.jsx          # Entry point
+
 
