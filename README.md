@@ -1,16 +1,44 @@
-# React + Vite
+# 🍸 Fresh Splash - Premium Cocktail Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning, interactive website for **Fresh Splash** - a premium cocktail bar showcasing exquisite drinks with immersive animations and smooth user interactions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Immersive Hero Section** with cinematic video background
+- **Interactive Cocktail Menu** with smooth slider transitions
+- **GSAP Animations** for engaging scroll-triggered effects
+- **Responsive Design** optimized for all devices
+- **Parallax Scrolling** with decorative leaf elements
+- **Split Text Animations** for dramatic text reveals
+- **Modern UI/UX** with elegant transitions
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19 + Vite
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Styling**: Tailwind CSS v4
+- **Responsive**: React Responsive
+- **Smooth Scrolling**: Native with GSAP ScrollTrigger
 
-## Expanding the ESLint configuration
+## 🎬 Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **SplashNav** - Fixed navigation with blur effects
+2. **Hero** - Cinematic introduction with split text animations
+3. **Cocktails** - Signature drinks with parallax elements
+4. **About** - Brand story and philosophy
+5. **Art** - Interactive mask reveal animations
+6. **Menu** - Dynamic cocktail slider with recipe details
+7. **Contact** - Location and social information
+
+src/
+├── sections/          # Main page sections
+│   ├── SplashNav.jsx
+│   ├── Hero.jsx
+│   ├── Menu.jsx
+│   ├── Art.jsx
+│   ├── Cocktails.jsx
+│   └── Contact.jsx
+├── constants/         # Data and configuration
+├── App.jsx           # Main app component
+└── main.jsx          # Entry point
+
